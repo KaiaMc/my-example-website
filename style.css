@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans Condensed';
+    font-size: 18px;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(black, rgba(0, 0, 0, 0.301)), url('./20211026181645.webp') no-repeat center / cover;
+    color: white
+}
+.container{
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .info h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.container .info h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+.container .info p{
+    font-size: 1.2rem;
+    max-width: 70%;
+}
+.container .info a{
+    font-style:bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    padding: 0.5em 2em;
+    margin-top: 2rem;
+    color: rgb(32, 25, 99)
+}
